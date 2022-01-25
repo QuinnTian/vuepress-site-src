@@ -1,0 +1,10 @@
+---
+title: Edge强制暗黑模式
+date: 2022-01-06 01:16:49
+update:
+tags:
+  - Edge
+categories: 其他
+
+---
+edge://flags/#enable-force-dark

@@ -1,0 +1,17 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@mr-hope/vuepress-plugin-git": "^1.25.0",
+    "vuepress": "^1.9.7",
+    "vuepress-theme-hope": "^1.27.0"
+  },
+  "scripts": {
+    "docs:build": "vuepress build dir",
+    "docs:clean-dev": "vuepress dev dir --no-cache",
+    "docs:dev": "vuepress dev dir",
+    "docs:eject-theme": "vuepress eject-hope dir"
+  }
+}
