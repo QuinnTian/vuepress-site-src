@@ -106,9 +106,7 @@ module.exports = config({
       status: "global",
     },
 
-    git: {
-      timezone: "Asia/Shanghai",
-    },
+    
 
     mdEnhance: {
       enableAll: true,
