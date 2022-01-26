@@ -8,7 +8,7 @@ module.exports = config({
         // 你的选项
         timezone: "Asia/Shanghai"
       },
-	  '@vssue/vuepress-plugin-vssue'
+	  
     ]
 	
   ],
