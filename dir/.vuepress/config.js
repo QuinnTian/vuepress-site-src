@@ -52,15 +52,15 @@ module.exports = config({
     nav: [
 	  
       { text: "主页", link: "/", icon: "home" },
-      { text: "目录", link: "/-", icon: "home" },
+      { text: "目录", link: "/", icon: "home" },
       {
         text: "后端",
         icon: "creative",
-        link: "/--",
+        link: "/",
       },
       {
         text: "前端",
-        link: "/---",
+        link: "/",
         icon: "note",
       },
 	  {
@@ -127,6 +127,64 @@ module.exports = config({
       },
     },
 
-    
+    pwa: {
+      favicon: "/favicon.ico",
+      cachePic: true,
+      apple: {
+        icon: "/assets/icon/apple-icon-152.png",
+        statusBarColor: "black",
+      },
+      msTile: {
+        image: "/assets/icon/ms-icon-144.png",
+        color: "#ffffff",
+      },
+      manifest: {
+        icons: [
+          {
+            src: "/favicon/android-chrome-512x512.png",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/favicon/android-chrome-192x192.png",
+            sizes: "192x192",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/favicon/android-chrome-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/favicon/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+        shortcuts: [
+          {
+            name: "Guide",
+            short_name: "Guide",
+            url: "/guide/",
+            icons: [
+              {
+                src: "/assets/icon/guide-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+              {
+                src: "/assets/icon/guide-monochrome.png",
+                sizes: "192x192",
+                purpose: "monochrome",
+                type: "image/png",
+              },
+            ],
+          },
+        ],
+      },
+    },
   },
 });
