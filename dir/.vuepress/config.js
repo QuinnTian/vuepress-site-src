@@ -8,6 +8,7 @@ module.exports = config({
         // 你的选项
         timezone: "Asia/Shanghai"
       },
+	  '@vssue/vuepress-plugin-vssue'
     ]
 	
   ],
@@ -97,9 +98,15 @@ module.exports = config({
     },
 
     comment: {
-      type: "waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
-	  
+        // 插件选项
+		type: "vssue",
+		platform: "github",
+
+	    // all other options of Vssue are allowed
+	    owner: "OuinnTian",
+	    repo: "vssue-repo",
+	    clientId: "6ca198c53e0ea15c661d",
+	    clientSecret: "ce4d93baec296838d584fa2a6515b6f0f542c228",
     },
 
     copyright: {
