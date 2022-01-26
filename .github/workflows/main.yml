@@ -13,7 +13,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.AUTO_BUILD }}
         TARGET_REPO: QuinnTian/quinntian.github.io
         TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarn build
+        BUILD_SCRIPT: yarn && yarn docs:build
         BUILD_DIR: dist/
         CNAME: https://quinntian.com
         COMMIT_MESSAGE: Auto deploy from Github Actions
