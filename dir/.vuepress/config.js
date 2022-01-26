@@ -127,14 +127,14 @@ module.exports = config({
     },
 
     pwa: {
-      favicon: "/favicon.ico",
+      favicon: "/favicon/favicon.ico",
       cachePic: true,
       apple: {
-        icon: "/assets/icon/apple-icon-152.png",
+        icon: "/favico/apple-touch-icon.png",
         statusBarColor: "black",
       },
       msTile: {
-        image: "/assets/icon/ms-icon-144.png",
+        image: "/favico/mstile-150x150.png",
         color: "#ffffff",
       },
       manifest: {
