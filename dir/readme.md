@@ -9,11 +9,7 @@ bgImage: https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/blog-imgs/background.jpg
 hero: false
 tagline: 
 heroFullScreen: true
-project:
-  - type: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+
 
 
 
