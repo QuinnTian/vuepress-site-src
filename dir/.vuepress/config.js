@@ -6,6 +6,7 @@ module.exports = config({
       "@mr-hope/git",
       {
         // 你的选项
+        timezone: "Asia/Shanghai"
       },
     ]
 	
@@ -32,7 +33,12 @@ module.exports = config({
       { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
     ],
   ],
-
+  locales: {
+    "/": {
+      // 设置需要的语言
+      lang: "zh-CN",
+    },
+  },
  
 
   themeConfig: {
@@ -42,12 +48,7 @@ module.exports = config({
 	
     author: "Quinn Tian",
     repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
-	 locales: {
-    "/": {
-      // 设置需要的语言
-      lang: "zh-CN",
-    },
-  },
+	 
     nav: [
 	  
       { text: "主页", link: "/", icon: "home" },
