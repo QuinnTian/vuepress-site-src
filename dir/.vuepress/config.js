@@ -14,7 +14,7 @@ module.exports = config({
   title: "北纬36度",
   description: "构建个人知识文档",
   dest: "./dist",
-  
+  base: "https://quinntian.com/",
   head: [
     
     [
