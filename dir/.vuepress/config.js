@@ -7,8 +7,8 @@ module.exports = config({
       {
         // 你的选项
       },
-    ],
-	['@vuepress/last-updated']
+    ]
+	
   ],
   title: "北纬36度",
   description: "构建个人知识文档",
