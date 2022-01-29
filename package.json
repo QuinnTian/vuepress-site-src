@@ -1,20 +1,15 @@
 {
-  "name": "vuepress-blog",
+  "name": "vuepress-site",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "QuinnTian <530479731@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "@mr-hope/vuepress-plugin-comment": "^1.27.1",
-    "@mr-hope/vuepress-plugin-git": "^1.25.0",
-    "@vssue/api-github-v3": "^1.4.7",
-    "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "vuepress": "^1.9.7",
-    "vuepress-theme-hope": "^1.27.2"
+    "vuepress-plugin-right-anchor": "^0.5.5"
   },
   "scripts": {
-    "docs:build": "vuepress build dir",
-    "docs:clean-dev": "vuepress dev dir --no-cache",
     "docs:dev": "vuepress dev dir",
-    "docs:eject-theme": "vuepress eject-hope dir"
+    "docs:build": "vuepress build dir"
   }
 }

@@ -8,8 +8,8 @@ module.exports = config({
         // 你的选项
         timezone: "Asia/Shanghai"
       },
-	  
     ]
+	
 	
   ],
   title: "北纬36度",
@@ -52,17 +52,6 @@ module.exports = config({
     nav: [
 	  
       { text: "主页", link: "/", icon: "home" },
-      { text: "目录", link: "/", icon: "home" },
-      {
-        text: "后端",
-        icon: "creative",
-        link: "/",
-      },
-      {
-        text: "前端",
-        link: "/",
-        icon: "note",
-      },
 	  {
         text: "旧站",
         icon: "info",
@@ -98,15 +87,15 @@ module.exports = config({
     },
 
     comment: {
-        // 插件选项
-		type: "vssue",
+        type: "vssue",
 		platform: "github",
-
+		
 	    // all other options of Vssue are allowed
-	    owner: "OuinnTian",
+	    owner: "QuinnTian",
 	    repo: "vssue-repo",
 	    clientId: "6ca198c53e0ea15c661d",
 	    clientSecret: "ce4d93baec296838d584fa2a6515b6f0f542c228",
+	  
     },
 
     copyright: {

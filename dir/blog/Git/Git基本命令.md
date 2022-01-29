@@ -99,7 +99,7 @@ permalink: /articles/2018/07/23/1532347122477.html
 ``` git reset --hard head[~n]```
 ### 8.5 相关参数
 ![Snipaste_20180723_175326png](https://res.quinntian.xyz//file/2018/07/6c31992ea8a74e7da0abef54f99a7c30_Snipaste_20180723_175326.png) 
- 
+
 **[soft]参数** 本地库移动指针
 **[mixed]参数** 本地库移动head指针和重置暂存区
 **[hard]**参数 本地库、暂存区、工作区重置
@@ -164,11 +164,15 @@ git工作区和暂存区比较
 * 3.git commit -m[]此时不需要加文件名
 
 
+<Vssue title="Vssue Demo" />
 
 
 
 
- 
+
+
+
+
 
 
 
