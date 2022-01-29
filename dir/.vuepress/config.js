@@ -1,7 +1,7 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-   plugins: [
+  plugins: [
     [
       "@mr-hope/git",
       {
@@ -9,14 +9,14 @@ module.exports = config({
         timezone: "Asia/Shanghai"
       },
     ]
-	
-	
+
+
   ],
   title: "北纬36度",
   description: "构建个人知识文档",
   dest: "./dist",
   head: [
-    
+
     [
       "script",
       { src: "https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" },
@@ -39,40 +39,57 @@ module.exports = config({
       lang: "zh-CN",
     },
   },
- 
+
 
   themeConfig: {
     darkmode: 'switch',
     pwa: false,
     hostname: "https://vuepress-theme-hope-demo.mrhope.site",
-	
+
     author: "Quinn Tian",
     repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
-	 
+    displayAllHeaders: true,
     nav: [
-	  
+
       { text: "主页", link: "/", icon: "home" },
-	  {
+      {
+        text: "运维",
+        icon: "info",
+
+        items: [
+          { text: "Linux", link: "/docs/linux/1643441184", icon: "info",}
+         
+        ],
+      },
+      {
         text: "旧站",
         icon: "info",
-        
+
         items: [
-          { text: "Hexo站", link: "https://hexo.quinntian.com", icon: "home" , target: '_blank'},
-          { text: "Halo站", link: "https://halo.quinntian.com", icon: "home" , target: '_blank'},
+          { text: "Hexo站", link: "https://hexo.quinntian.com", icon: "home", target: '_blank' },
+          { text: "Halo站", link: "https://halo.quinntian.com", icon: "home", target: '_blank' },
         ],
       }
 
     ],
-	sidebarDepth: 2,
-	sidebar: "auto",
+    sidebarDepth: 2,
+    sidebar: {
+      '/docs/linux/': [
+        '10-Linux 命令基础',     /* /foo/ */
+        'one',  /* /foo/one.html */
+        'two'   /* /foo/two.html */
+      ],
 
-    
+      
+    },
+
+
 
     blog: {
-	  avatar: "https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/blog-imgs/avatar.jpg",
+      avatar: "https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/blog-imgs/avatar.jpg",
       intro: "/intro/",
       sidebarDisplay: "mobile",
-	  
+
       links: {
         Zhihu: "https://zhihu.com",
         Baidu: "https://baidu.com",
@@ -82,27 +99,27 @@ module.exports = config({
 
     footer: {
       display: true,
-      
-	  copyright: "©2018-2022 Quinn Tian"
+
+      copyright: "©2018-2022 Quinn Tian"
     },
 
     comment: {
-        type: "vssue",
-		platform: "github",
-		
-	    // all other options of Vssue are allowed
-	    owner: "QuinnTian",
-	    repo: "vssue-repo",
-	    clientId: "6ca198c53e0ea15c661d",
-	    clientSecret: "ce4d93baec296838d584fa2a6515b6f0f542c228",
-	  
+      type: "vssue",
+      platform: "github",
+
+      // all other options of Vssue are allowed
+      owner: "QuinnTian",
+      repo: "vssue-repo",
+      clientId: "6ca198c53e0ea15c661d",
+      clientSecret: "ce4d93baec296838d584fa2a6515b6f0f542c228",
+
     },
 
     copyright: {
       status: "global",
     },
 
-     
+
 
     mdEnhance: {
       enableAll: true,
