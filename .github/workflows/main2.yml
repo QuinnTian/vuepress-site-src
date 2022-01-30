@@ -1,0 +1,23 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+      with:
+          persist-credentials: false
+          # Number of commits to fetch. 0 indicates all history.
+          fetch-depth: 0
+
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.AUTO_BUILD }}
+        TARGET_REPO: QuinnTian/quinntian.github.io
+        TARGET_BRANCH: master
+        BUILD_SCRIPT: yarn && yarn docs:build
+        BUILD_DIR: dist/
+        CNAME: https://quinntian.com
+        COMMIT_MESSAGE: Auto deploy from Github Actions
