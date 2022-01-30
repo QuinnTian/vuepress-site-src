@@ -33,7 +33,7 @@ module.exports = config({
       { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
     ],
   ],
-  locales: {
+  locales: { 
     "/": {
       // 设置需要的语言
       lang: "zh-CN",
