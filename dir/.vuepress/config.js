@@ -48,7 +48,7 @@ module.exports = config({
 
     author: "Quinn Tian",
     repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
-    displayAllHeaders: true,
+    displayAllHeaders: false,
     nav: [
 
       { text: "主页", link: "/", icon: "home" },
@@ -72,20 +72,28 @@ module.exports = config({
       }
 
     ],
-    sidebarDepth: 2,
+    sidebarDepth: 3,
     sidebar: {
-      '/docs/linux/': [
-        '10-Linux 命令基础',     /* /foo/ */
-        'one',  /* /foo/one.html */
-        'two'   /* /foo/two.html */
-      ],
+     
+      "/docs/linux/": [
+        {
+          title: "Linux",
+          icon: "creative",
+          collapsable: true,
+          children: ["10-Linux 命令基础", "install", "markdown"],
+        },
+        {
+          title: "Linux2",
+          icon: "creative",
+          collapsable: true,
+          children: ["blog", "install", "markdown"],
+        },
+
 
       
-    },
-
-
-
-    blog: {
+    ]
+  },
+blog: {
       avatar: "https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/blog-imgs/avatar.jpg",
       intro: "/intro/",
       sidebarDisplay: "mobile",
