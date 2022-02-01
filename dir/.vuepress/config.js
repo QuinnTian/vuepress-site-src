@@ -47,7 +47,7 @@ module.exports = config({
     hostname: "https://vuepress-theme-hope-demo.mrhope.site",
 
     author: "Quinn Tian",
-    repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
+    repo: "https://github.com/QuinnTian",
     displayAllHeaders: false,
     nav: [
 
