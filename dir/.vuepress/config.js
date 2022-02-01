@@ -44,7 +44,7 @@ module.exports = config({
   themeConfig: {
     darkmode: 'switch',
     pwa: false,
-    hostname: "https://vuepress-theme-hope-demo.mrhope.site",
+    hostname: "https://quinntian.com",
 
     author: "Quinn Tian",
     repo: "https://github.com/QuinnTian",
