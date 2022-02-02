@@ -91,11 +91,11 @@ man - [需要查询的命令]
 - **虚拟目录**与实际存储位置并不一致
 - 其他硬盘挂载于相应位置，该位置称**挂载点**
 
-![image-20220129140747654](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220129140747654.png)
+![image-20220129140747654](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220129140747654.png)
 
 - 常见目录及用途
 
-![image-20220129140527365](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220129140527365.png)
+![image-20220129140527365](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220129140527365.png)
 
 
 
@@ -174,7 +174,7 @@ ls 命令：查看目录下文件
 
   长格式显示内容含义
 
-  ![image-20220129145321634](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220129145321634.png)
+  ![image-20220129145321634](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220129145321634.png)
 
 - `-d` 只查看目录信息，不列出里面的文件
 
@@ -264,7 +264,7 @@ touch 命令：文件创建
 
 - 用于修改文件创建时间 `touch [已存在文件名]`
 
-  ![image-20220129220139600](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220129220139600.png)
+  ![image-20220129220139600](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220129220139600.png)
 
 - 用于修改访问时间`touch -[a] [文件名]`
 
@@ -549,7 +549,7 @@ more 命令
   more initial-setup-ks.cfg 
   ```
 
-  ![image-20220202000946900](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202000946900.png)
+  ![image-20220202000946900](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202000946900.png)
 
 less 命令
 

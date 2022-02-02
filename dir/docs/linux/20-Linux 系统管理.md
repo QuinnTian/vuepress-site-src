@@ -24,8 +24,7 @@ permalink: /docs/linux/1643780459.html
 ### 查看进程
 
 ps
-
-![image-20220202125707370](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202125707370.png)
+![image-20220202125707370](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202125707370.png)
 
 参数列表有三种风格
 
@@ -35,55 +34,55 @@ ps
 
 #### Unix 风格参数
 
-![image-20220202130104042](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202130104042.png)
+![image-20220202130104042](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202130104042.png)
 
-![image-20220202130145743](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202130145743.png)
+![image-20220202130145743](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202130145743.png)
 
 例子1 `ps -ef` 显示所有进程并以长格式输出
 
-![image-20220202130333821](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202130333821.png)
+![image-20220202130333821](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202130333821.png)
 
 - 各列含义
 
-  ![image-20220202130431069](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202130431069.png)
+  ![image-20220202130431069](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202130431069.png)
 
-![image-20220202130751967](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202130751967.png)
+![image-20220202130751967](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202130751967.png)
 
 例子2 `ps -l` 长列表
 
-![image-20220202130531652](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202130531652.png)
+![image-20220202130531652](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202130531652.png)
 
 ---
 
 #### BSD 风格参数
 
-![image-20220202130932289](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202130932289.png)
+![image-20220202130932289](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202130932289.png)
 
-![image-20220202131010898](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202131010898.png)
+![image-20220202131010898](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202131010898.png)
 
 例子1 `ps l`
 
-![image-20220202131541275](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202131541275.png)
+![image-20220202131541275](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202131541275.png)
 
 - 各列含义
 
-  ![image-20220202131233872](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202131233872.png)
+  ![image-20220202131233872](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202131233872.png)
 
   - STAT 列含义
 
-![image-20220202131343330](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202131343330.png)
+![image-20220202131343330](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202131343330.png)
 
 ---
 
 #### GNU 长参数
 
-![image-20220202131744276](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202131744276.png)
+![image-20220202131744276](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202131744276.png)
 
-![image-20220202131807918](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202131807918.png)
+![image-20220202131807918](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202131807918.png)
 
 例子 `ps --forest` 绘制层级子进程
 
-![image-20220202131917955](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202131917955.png)
+![image-20220202131917955](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202131917955.png)
 
 ---
 
@@ -91,7 +90,7 @@ ps
 
 top 
 
-![image-20220202132544429](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202132544429.png)
+![image-20220202132544429](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202132544429.png)
 
 第一部分
 
@@ -103,9 +102,9 @@ top
 
 第二部分
 
-![image-20220202133235781](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202133235781.png)
+![image-20220202133235781](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202133235781.png)
 
-![image-20220202133254200](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202133254200.png)
+![image-20220202133254200](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202133254200.png)
 
 - top **交互式命令**
 
@@ -113,11 +112,11 @@ top
 
   - 输入 f 选择根绝哪一列输出
 
-    ![image-20220202133448140](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202133448140.png)
+    ![image-20220202133448140](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202133448140.png)
 
 - 输入 d 指定轮询间隔
 
-  ![image-20220202133545269](https://raw.githubusercontent.com/QuinnTian/imgchr/master/imgs/image-20220202133545269.png)
+  ![image-20220202133545269](https://cdn.jsdelivr.net/gh/QuinnTian/imgchr/imgs/image-20220202133545269.png)
 
 - 输入 q 退出
 
