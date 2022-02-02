@@ -81,7 +81,7 @@ module.exports = config({
           icon: "creative",
           collapsable: true,
           children: ["10-Linux 命令基础", 
-          "20-Linux 系统管理.md"],
+          "20-Linux 系统管理"],
         },
         {
           title: "Shell",
