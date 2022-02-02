@@ -57,7 +57,7 @@ module.exports = config({
         icon: "info",
 
         items: [
-          { text: "Linux", link: "/docs/linux/1643441184", icon: "info",}
+          { text: "Linux", link: "/docs/linux/", icon: "info",}
          
         ],
       },
@@ -80,10 +80,11 @@ module.exports = config({
           title: "Linux",
           icon: "creative",
           collapsable: true,
-          children: ["10-Linux 命令基础", "install", "markdown"],
+          children: ["10-Linux 命令基础", 
+          "20-Linux 系统管理.md"],
         },
         {
-          title: "Linux2",
+          title: "Shell",
           icon: "creative",
           collapsable: true,
           children: ["blog", "install", "markdown"],
