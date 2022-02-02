@@ -1,8 +1,14 @@
+---
 title: Linux 系统管理
 date: 2022-02-02 13:41:24
 update:
 article: false
 permalink: /docs/linux/1643780459.html
+---
+
+
+
+
 # Linux 系统管理
 
 ## 进程管理
