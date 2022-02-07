@@ -80,8 +80,16 @@ module.exports = config({
           title: "Linux",
           icon: "creative",
           collapsable: true,
-          children: ["10-Linux 命令基础", 
-          "20-Linux 系统管理"],
+          children: [
+            "10-Linux 命令基础", 
+            "20-Linux 系统管理"],
+        },
+        {
+          title: "Linux 服务器",
+          icon: "creative",
+          collapsable: true,
+          children: [
+            "1000-Centos下Nginx源码安装"],
         },
         {
           title: "Shell",
