@@ -61,6 +61,7 @@ module.exports = config({
          
         ],
       },
+      { text: "其他", link: "/null", icon: "info" },
       {
         text: "旧站",
         icon: "info",
@@ -77,7 +78,7 @@ module.exports = config({
      
       "/docs/linux/": [
         {
-          title: "Linux",
+          title: "Linux 参考文档",
           icon: "creative",
           collapsable: true,
           children: [
@@ -92,7 +93,7 @@ module.exports = config({
             "1000-Centos下Nginx源码安装"],
         },
         {
-          title: "Shell",
+          title: "Shell 参考文档",
           icon: "creative",
           collapsable: true,
           children: ["blog", "install", "markdown"],

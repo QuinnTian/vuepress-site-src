@@ -1,7 +1,7 @@
 ---
 title: Centos下Nginx源码安装
 date: 2021-02-24 18:12:26.0
-updated: 2021-02-24 18:29:03.0
+updated: 
 categories: Linux
 tags: 
 comments: true
