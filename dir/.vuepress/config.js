@@ -8,6 +8,7 @@ module.exports = config({
         // 你的选项
         timezone: "Asia/Shanghai"
       },
+      
     ]
 
 
@@ -42,6 +43,11 @@ module.exports = config({
 
 
   themeConfig: {
+    algolia: {
+      apiKey: "26233573a92af1e66d3606d27c70b06a",
+      indexName: "vuepress-site",
+      appId: '95RWUTDZ9S',
+    },
     darkmode: 'switch',
     pwa: false,
     hostname: "https://quinntian.com",
