@@ -19,5 +19,5 @@ jobs:
         TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist
-        CNAME: https://quinntian.com
+        CNAME: https://docs.quinntian.com
         COMMIT_MESSAGE: Auto deploy from Github Actions
