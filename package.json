@@ -1,21 +1,27 @@
 {
-  "name": "vuepress-site",
+  "name": "theme-vdoing-doc",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "QuinnTian <530479731@qq.com>",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
+    "editFm": "node utils/editFrontmatter.js"
+  },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.7",
-    "vuepress-plugin-right-anchor": "^0.5.5",
-    "vuepress-theme-hope": "^1.27.3"
+    "dayjs": "^1.9.7",
+    "inquirer": "^7.1.0",
+    "json2yaml": "^1.1.0",
+    "vuepress": "1.9.2",
+    "vuepress-plugin-baidu-tongji": "^1.0.1",
+    "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-fulltext-search": "^2.2.1",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-thirdparty-search": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.7",
+    "vuepress-theme-vdoing": "^1.9.4",
+    "yamljs": "^0.3.0"
   },
-  "scripts": {
-    "docs:dev": "vuepress dev dir",
-    "docs:build": "vuepress build dir",
-    "bash": "vuepress build dir"
-  },
-  "dependencies": {
-    "@docsearch/js": "^3.0.0-alpha.50",
-    "vuepress-theme-hope": "^1.27.3"
-  }
+  "dependencies": {}
 }
